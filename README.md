@@ -2,7 +2,7 @@
 
 This project performs land cover classification on satellite images using **Transfer Learning with ResNet50**, applied to the **EuroSAT RGB dataset**. The model classifies satellite images into one of 10 classes such as Forest, River, Residential, etc., with a robust deep learning pipeline that includes data augmentation and regularization techniques.
 
----
+ 
 
 ## 📂 Dataset
 
@@ -12,11 +12,42 @@ This project performs land cover classification on satellite images using **Tran
 - **Images**: 27,500 RGB images (2750 per class)  
 - **Format**: `.jpg`, 64x64 resolution  
 - **Structure**:
-EuroSAT_RGB_/2750/
-├── AnnualCrop/
-├── Forest/
-├── ...
-└── SeaLake/
+
+EuroSAT_RGB_/2750/  
+├── AnnualCrop/   
+│   ├── AnnualCrop_1.jpg  
+│   ├── AnnualCrop_2.jpg  
+│   └── ...  
+├── Forest/  
+│   ├── Forest_1.jpg   
+│   ├── Forest_2.jpg   
+│   └── ...
+├── HerbaceousVegetation/    
+│   ├── HerbaceousVegetation_1.jpg  
+│   └── ...   
+├── Highway/  
+│   ├── Highway_1.jpg   
+│   └── ...
+├── Industrial/
+│   ├── Industrial_1.jpg   
+│   └── ...
+├── Pasture/    
+│   ├── Pasture_1.jpg   
+│   └── ...
+├── PermanentCrop/    
+│   ├── PermanentCrop_1.jpg   
+│   └── ...  
+├── Residential/   
+│   ├── Residential_1.jpg    
+│   └── ...   
+├── River/   
+│   ├── River_1.jpg   
+│   └── ...   
+└── SeaLake/   
+    ├── SeaLake_1.jpg   
+    └── ...   
+
+
 
 
 
